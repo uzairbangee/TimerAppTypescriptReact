@@ -1,0 +1,9 @@
+.button {
+    background-color: turquoise;
+    width: 100px;
+    border: 1px solid turquoise;
+    border-radius: 2px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+}

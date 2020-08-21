@@ -1,0 +1,25 @@
+.Timer{
+    border : 1px solid slategrey;
+    border-radius: 2px;
+    min-width: 300px;
+    width: 350px;
+    height: 250px;
+}
+
+.button_area{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.time{
+    width: 200px;
+    height: 120px;
+    color : turquoise;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-left: 20%;
+}
