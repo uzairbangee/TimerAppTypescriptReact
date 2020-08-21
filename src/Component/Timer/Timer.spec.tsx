@@ -30,7 +30,7 @@ describe("Mounted Timer", () => {
         // const spy = jest.spyOn(but, 'action');
         // component.update();
         // expect(spy).toHaveBeenCalledTimes(0);
-        // component.find('.start-timer').first().simulate('click');
+        component.find('.start-timer').first().simulate('click');
         // expect(spy).toHaveBeenCalledTimes(1);
 
 
@@ -39,14 +39,14 @@ describe("Mounted Timer", () => {
     it("invoke Stop Timer when button is clicked", () => {
         // const spy = jest.spyOn(component, "stopTimer");
         // expect(spy).toHaveBeenCalledTimes(0);
-        // component.find('.stop-timer').first().simulate('click');
+        component.find('.stop-timer').first().simulate('click');
         // expect(spy).toHaveBeenCalledTimes(1);
     })
 
     it("invoke Reset Timer when button is clicked", () => {
         // const spy = jest.spyOn(component, "resetTimer");
         // expect(spy).toHaveBeenCalledTimes(0);
-        // component.find('.reset-timer').first().simulate('click');
+        component.find('.reset-timer').first().simulate('click');
         // expect(spy).toHaveBeenCalledTimes(1);
     })
 })
